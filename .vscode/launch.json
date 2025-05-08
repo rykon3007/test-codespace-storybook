@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Debug React App",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/react-ts-project/src"
+    },
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Debug Storybook",
+      "url": "http://localhost:6006",
+      "webRoot": "${workspaceFolder}/react-ts-project/src/stories"
+        }
+  ],
+  "compounds": [
+    {
+      "name": "Debug React and Storybook",
+      "configurations": ["Debug React App", "Debug Storybook"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "React TypeScript Project",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "18"
+    }
+  },
+  "forwardPorts": [6006],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next",
+        "msjsdiag.debugger-for-chrome",
+        "msjsdiag.debugger-for-edge"
+      ]
+    }
+  },
+  "postCreateCommand": "cd react-ts-project && npm install"
+}
