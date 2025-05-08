@@ -1,4 +1,4 @@
-# -test-codespace-storybook
+# test-codespace-storybook
 
 ## アプリプロジェクトの概要
 
