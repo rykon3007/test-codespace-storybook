@@ -13,13 +13,7 @@
       "request": "launch",
       "name": "Debug Storybook",
       "url": "http://localhost:6006",
-      "webRoot": "${workspaceFolder}/react-ts-project/src/stories"
+      "webRoot": "${workspaceFolder}/react-ts-project/src"
         }
-  ],
-  "compounds": [
-    {
-      "name": "Debug React and Storybook",
-      "configurations": ["Debug React App", "Debug Storybook"]
-    }
   ]
 }
